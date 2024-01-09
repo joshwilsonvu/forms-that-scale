@@ -24,7 +24,7 @@ const demos = [
 ];
 
 export default function App() {
-  const [demoNum, setDemoNum] = useState(1);
+  const [demoNum, setDemoNum] = useState(0);
   const { Component } = demos[demoNum];
 
   return (
